@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>나의 포트폴리오</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+    header { background-color: #333; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 800px; margin: auto; background-color: white; margin-bottom: 20px; border-radius: 10px; }
+    h2 { color: #444; }
+    footer { text-align: center; padding: 20px; background-color: #eee; font-size: 14px; }
+    button { padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>홍길동의 포트폴리오</h1>
+    <nav>
+      <a href="#about">소개</a>
+      <a href="#projects">프로젝트</a>
+      <a href="#resume">이력서</a>
+      <a href="#contact">연락처</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>👤 소개</h2>
+    <p>안녕하세요! 저는 웹 개발자 홍길동입니다. 프론트엔드와 백엔드 기술을 기반으로 다양한 웹 서비스를 개발하고 있습니다.</p>
+  </section>
+
+  <section id="projects">
+    <h2>💻 주요 프로젝트</h2>
+    <ul>
+      <li><strong>포트폴리오 웹사이트:</strong> HTML, CSS, JS로 제작</li>
+      <li><strong>블로그 플랫폼:</strong> React, Node.js 기반</li>
+      <li><strong>팀 협업 툴:</strong> Python Flask 및 MongoDB 사용</li>
+    </ul>
+  </section>
+
+  <section id="resume">
+    <h2>📄 이력서</h2>
+    <p>아래 버튼을 클릭하여 이력서를 다운로드하세요.</p>
+    <button onclick="window.open('resume.pdf')">이력서 다운로드</button>
+  </section>
+
+  <section id="contact">
+    <h2>✉️ 연락처</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <p><label>이름: <input type="text" name="name"></label></p>
+      <p><label>이메일: <input type="email" name="email"></label></p>
+      <p><label>메시지: <br><textarea name="message" rows="5" cols="40"></textarea></label></p>
+      <p><button type="submit">보내기</button></p>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 홍길동. All rights reserved.
+  </footer>
+
+</body>
+</html>
+                                                                                                                                                                                                                          
